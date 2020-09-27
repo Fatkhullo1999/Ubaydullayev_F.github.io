@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End Developer</title>
+    <!-- LINK FOR FAVICON -->
+    <link rel="shortcut icon" type="image/png" href="./images/circled profile picture.png">
+    <!-- FONTAWESOME ICONS / BootstrapCDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- CUSTOM CSS STYLESHEET -->
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello! I'm </br><span>Fatkhullo Ubaydullaev</span></h2>
+            <h3>a Front-End Web Developer.</h3>
+            <a href="#about" class="btn gradientBtn">About Me</a>
+            <a href="./pdf files/Resume - Fathullo Ubaydullayev.pdf" target="_blank" class="btn gradientBtn">Get Resume</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="flexy w50">
+                <img src="./images/profile picture.jpg" class="profile-pic" alt="a Web Developer smiling" class="img">
+            </div>
+            <div class="contentBx flexy w50">
+                <h3>I'm a Front-End Web Developer.</h3>
+                <p>Objective: Extremely motivated to constantly develop my skills and grow <b>professionally on Front-End Development</b> . I am confident in my ability to come up with interesting ideas for unforgettable <b>web projects</b>.</p><br>
+                <p>Skills: <b>HTML5, CSS3, JavaScript</b></p><br>
+                <p>Hands on: <b>SASS, Bootstrap, jQuery</b></p><br>
+                <p>Graphics: <b>Canva, Corel Draw</b> and <b>Photoshop</b></p>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>My Services</h2>
+            <p>As an Entrepreneur and year of Self-Education I can deal with...</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="./images/icons/icon1.png" alt="Web Design Icon" class="img">
+                <h2>Web Development</h2>
+                <p>Responsive and Modern mark-ups, Layouts using: <b>HTML, CSS, JS, SASS, Bootstrap, jQuery</b>. Nowadays I'm learning <b>Angular</b>.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/icons/icon2.png" alt="Web Design Icon" class="img">
+                <h2>Graphic Design</h2>
+                <p>Till now I created awesome designs (such as logos, posts, instagram stories, banners) using <b>Canva, Photoshop</b> and <b>Corel Draw</b>. These days hands on <b>Adobe Illustrator</b>.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/icons/icon3.png" alt="Web Design Icon" class="img">
+                <h2>SMM Management</h2>
+                <p>Have experience on managing Social Profile and Channels via <b>Telegram, YouTube, Facebook Pages </b>and <b>Instagram</b>. Deal with <b>Copyrighting</b> and <b>Video-Editing</b>.</p>
+            </div>
+        </div>
+    </section>
+    <section id="work" class="projects-section">
+        <h2 class="projects-section-header heading">These are some of my projects</h2>
+        <div class="project-grid">
+          <a href="https://codepen.io/Fatkhullo_Ubaydullaev/full/mdVYVMJ" target="_blank" class="project project-tile">
+            <img src="./images/project covers/2.jpg" alt="project" class="project-image">
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Delicious Website
+              <span class="code">/&gt;</span>
+            </p>
+          </a>
+          <a href="https://codepen.io/Fatkhullo_Ubaydullaev/full/rNxMgRG" target="_blank" class="project project-tile">
+            <img src="./images/project covers/1.jpg" alt="project" class="project-image">
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Product Landing Page
+              <span class="code">/&gt;</span>
+            </p>
+          </a>
+          <a href="https://codepen.io/Fatkhullo_Ubaydullaev/full/MWKVKMM" target="_blank" class="project project-tile">
+            <img src="./images/project covers/4.jpg" alt="project" class="project-image">
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Text Shadow Effects
+              <span class="code">/&gt;</span>
+            </p>
+          </a>
+          <a href="https://codepen.io/Fatkhullo_Ubaydullaev/full/NWGoXxx" target="_blank" class="project project-tile">
+            <img src="./images/project covers/7.jpg" alt="project" class="project-image">
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Survey Form
+              <span class="code">/&gt;</span>
+            </p>
+          </a>
+          <a href="https://codepen.io/Fatkhullo_Ubaydullaev/full/XWdGQZK" target="_blank" class="project project-tile">
+            <img src="./images/project covers/6.jpg" alt="project" class="project-image">
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Rocket Loader
+              <span class="code">/&gt;</span>
+            </p>
+          </a>
+          <a href="https://codepen.io/Fatkhullo_Ubaydullaev/full/xxVBpXq" target="_blank" class="project project-tile">
+            <img src="./images/project covers/5.jpg" alt="project" class="project-image">
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Text-Color Changer
+              <span class="code">/&gt;</span>
+            </p>
+          </a>
+        </div>
+        <a href="https://codepen.io/Fatkhullo_Ubaydullaev/" target="_blank" class="btn btn-show-all">Show All <i class="fa fa-chevron-right"></i></a>
+    </section>
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact Me</h2>
+            <p>to get the quick answer make a phone call or text me on <a href="http://t.me/Ubaydullayev_F" class="link">Telegram</a></p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>M.Ulugbek Street</br>Tashkent District</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>+998 99 859 39 05</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p><a href="mailto:fatkhullo.ubaydullaev@gmail.com" class="link">fatkhullo.ubaydullaev</a></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-telegram"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Telegram</h3>
+                            <p><a href="http://t.me/Ubaydullayev_F" target="_blank" class="link">t.me/Ubaydullayev_F</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form action="">
+                    <h3>Message Me</h3>
+                    <input type="text" name="" id="" placeholder="Full Name">
+                    <input type="email" name="" id="" placeholder="Email">
+                    <textarea name="" id="" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>      
+    </section>
+    <section class="copyright">
+        <p>&copy; Ubaydullayev Fathullo &nbsp; &nbsp; &copy; 2020</p>
+    </section>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+        function toggleMenu(){
+            var menuToggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active')
+        }
+    </script>
+    <script src="./javascript/main.js"></script>
+</body>
+</html>
