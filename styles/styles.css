@@ -156,7 +156,7 @@ header.sticky ul li a {
     border: 8px solid #1a2a40;
     filter: grayscale(100%);
     display: flex;
-    max-width: 400px;
+    max-width: -webkit-fill-available;
     transition: linear 0.2s;
 }
 
