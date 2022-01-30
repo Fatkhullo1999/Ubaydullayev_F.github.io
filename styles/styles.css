@@ -156,13 +156,13 @@ header.sticky ul li a {
     border: 8px solid #1a2a40;
     filter: grayscale(100%);
     display: flex;
-    max-width: 100%;
+    max-width: 400px;
     transition: linear 0.2s;
 }
 
 .profile-pic:hover {
     filter: none;
-    transform: rotate(-1deg);
+    transform: scale(1.05);
     transition: linear 0.3s;
 }
 
